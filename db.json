@@ -1,0 +1,83 @@
+{
+  "snacks": [
+    {
+      "id": 1,
+      "name": "Bhel Puri",
+      "price": 20,
+      "ordersCount": 0
+    },
+    {
+      "id": 2,
+      "name": "Samosa",
+      "price": 10,
+      "ordersCount": 0
+    },
+    {
+      "id": 3,
+      "name": "Vada Pav",
+      "price": 15,
+      "ordersCount": 0
+    },
+    {
+      "id": 4,
+      "name": "Sandwich",
+      "price": 30,
+      "ordersCount": 0
+    },
+    {
+      "id": 5,
+      "name": "Idli Sambar",
+      "price": 25,
+      "ordersCount": 0
+    },
+    {
+      "id": 6,
+      "name": "Dosa",
+      "price": 40,
+      "ordersCount": 0
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "Alice Sharma",
+      "referralCode": "ALICE123",
+      "totalSpent": 150
+    },
+    {
+      "id": 2,
+      "name": "Bob Gupta",
+      "referralCode": "BOB456",
+      "totalSpent": 50
+    }
+  ],
+  "orders": [
+    {
+      "id": 1678901234,
+      "studentId": 1,
+      "snackId": 1,
+      "snackName": "Bhel Puri",
+      "quantity": 2,
+      "totalAmount": 40,
+      "timestamp": "2023-11-20T10:00:00.000Z"
+    },
+    {
+      "id": 1678901235,
+      "studentId": 1,
+      "snackId": 2,
+      "snackName": "Samosa",
+      "quantity": 1,
+      "totalAmount": 10,
+      "timestamp": "2023-11-21T12:30:00.000Z"
+    },
+    {
+      "id": 1678901236,
+      "studentId": 2,
+      "snackId": 3,
+      "snackName": "Vada Pav",
+      "quantity": 2,
+      "totalAmount": 30,
+      "timestamp": "2023-11-22T11:15:00.000Z"
+    }
+  ]
+}
